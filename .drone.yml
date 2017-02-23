@@ -8,3 +8,11 @@ build:
         commands:
             - pip install -r requirements.txt
             - python testing.py
+
+publish:
+    docker:
+        repo: riconorway/cicd_demoapp
+        tag: latest
+        username: riconorway
+        password: 123456Rs
+        email: cuijiemx@hotmail.com
